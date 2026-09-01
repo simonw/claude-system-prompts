@@ -33,5 +33,15 @@ jobs:
       - name: Extract prompts into backdated commits
         run: python3 extract_prompts.py
 
+      - name: Rebuild README
+        run: |
+          python3 build_readme.py
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "README unchanged"
+          else
+            git commit -m "Rebuild README"
+          fi
+
       - name: Push
         run: git push
