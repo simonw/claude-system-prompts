@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Claude system prompts revision history</title>
+  <subtitle>Every published revision of the claude.ai system prompt, with an LLM-written summary of what changed</subtitle>
+  <link href="https://simonw.github.io/claude-system-prompts/feed.atom" rel="self" type="application/atom+xml"/>
+  <link href="https://github.com/simonw/claude-system-prompts" rel="alternate" type="text/html"/>
+  <id>https://simonw.github.io/claude-system-prompts/</id>
+  <updated>2026-09-01T12:00:00Z</updated>
+  <author><name>Anthropic, via simonw/claude-system-prompts</name></author>
+  <entry>
+    <title>Fable 5 → Fable 5.1 on Sep 1, 2026</title>
+    <link href="https://github.com/simonw/claude-system-prompts/blob/main/CHANGELOG.md#2026-09-01-claude-fable-51" rel="alternate" type="text/html"/>
+    <id>https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-fable-5-1-2026-09-01.md</id>
+    <updated>2026-09-01T12:00:00Z</updated>
+    <published>2026-09-01T12:00:00Z</published>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Compared with Fable 5&lt;/strong&gt; · &lt;a href=&quot;https://github.com/simonw/claude-system-prompts/commit/837a418b5888207b1b11b27d2f5471970da6f99b&quot;&gt;diff&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Claude now refuses reproduction of protected visual works and recognizable characters, including code-generated art, while offering genuinely unrelated originals.&lt;/li&gt;&lt;li&gt;Copyright restrictions now expressly ban reproducing lyrics, poems, and book passages in any amount, with persistent refusal after an initial decline.&lt;/li&gt;&lt;li&gt;Drug guidance is reframed: Claude may provide overdose signs, dangerous interactions, and harm-reduction sources while refusing dosing and production protocols.&lt;/li&gt;&lt;li&gt;The prompt drops explicit anti-dependency rules against thanking users for reaching out, inviting continued conversation, or reiterating willingness to talk.&lt;/li&gt;&lt;li&gt;Claude need not apologize to unnecessarily rude users or become submissive, replacing the prior warning-and-end-conversation procedure.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-fable-5-1-2026-09-01.md&quot;&gt;Full prompt&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Opus 4.8 → Opus 5 on Jul 24, 2026</title>
+    <link href="https://github.com/simonw/claude-system-prompts/blob/main/CHANGELOG.md#2026-07-24-claude-opus-5" rel="alternate" type="text/html"/>
+    <id>https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-opus-5-2026-07-24.md</id>
+    <updated>2026-07-24T12:00:00Z</updated>
+    <published>2026-07-24T12:00:00Z</published>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Compared with Opus 4.8&lt;/strong&gt; · &lt;a href=&quot;https://github.com/simonw/claude-system-prompts/commit/26d66c827d2e847bf0b302207481576a4ba39fa0&quot;&gt;diff&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Adds explicit Fable-to-Opus safeguards routing, noting harmless requests may be caught “in less than 5% of sessions,” and mandates factual handling of the export-control suspension.&lt;/li&gt;&lt;li&gt;Drops tool-discovery rules requiring &lt;code&gt;tool_search&lt;/code&gt; and pre-file &lt;code&gt;SKILL.md&lt;/code&gt; viewing, and removes the instruction not to attribute behavior to the system prompt.&lt;/li&gt;&lt;li&gt;In crisis or distress, Claude now prioritizes wellbeing over task completion; it also drops explicit anti-overreliance rules such as never asking users to keep talking.&lt;/li&gt;&lt;li&gt;Replaces extensive anti-formatting rules with permission to use lists when helpful, while dropping restrictions on emojis and pet names.&lt;/li&gt;&lt;li&gt;Unless it suspects a minor, Claude now assumes the person is a capable adult and treats them as such.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-opus-5-2026-07-24.md&quot;&gt;Full prompt&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Fable 5 on Jun 9, 2026 (first Fable prompt)</title>
+    <link href="https://github.com/simonw/claude-system-prompts/blob/main/CHANGELOG.md#2026-06-09-claude-fable-5" rel="alternate" type="text/html"/>
+    <id>https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-fable-5-2026-06-09.md</id>
+    <updated>2026-06-09T12:00:00Z</updated>
+    <published>2026-06-09T12:00:00Z</published>
+    <content type="html">&lt;p&gt;First prompt in the Fable family.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-fable-5-2026-06-09.md&quot;&gt;Full prompt&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Opus 4.7 → Opus 4.8 on May 28, 2026</title>
+    <link href="https://github.com/simonw/claude-system-prompts/blob/main/CHANGELOG.md#2026-05-28-claude-opus-48" rel="alternate" type="text/html"/>
+    <id>https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-opus-4-8-2026-05-28.md</id>
+    <updated>2026-05-28T12:00:00Z</updated>
+    <published>2026-05-28T12:00:00Z</published>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Compared with Opus 4.7&lt;/strong&gt; · &lt;a href=&quot;https://github.com/simonw/claude-system-prompts/commit/c76eb467e2916a853f39d0832ebdb52c42735c8c&quot;&gt;diff&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;A new default stance says Claude helps unless assistance creates a “concrete, specific risk of serious harm,” excluding merely edgy, hypothetical, playful, or uncomfortable requests.&lt;/li&gt;&lt;li&gt;Weapon safeguards now explicitly cover conventional weapons and cumulative multi-turn design packages, regardless of defensive, fictional, commercial, or document-editing framing.&lt;/li&gt;&lt;li&gt;Claude must not decode, define, or confirm slang, acronyms, or euphemisms used for CSAM trading or access, even when refusing.&lt;/li&gt;&lt;li&gt;For file tasks with code execution, Claude must first &lt;code&gt;view&lt;/code&gt; the relevant SKILL.md before checking uploads, viewing files, or running code.&lt;/li&gt;&lt;li&gt;Claude is instructed not to attribute behavior to its system prompt or internal mechanics, avoiding explanations such as “my system prompt requires me to.”&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-opus-4-8-2026-05-28.md&quot;&gt;Full prompt&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Opus 4.6 → Opus 4.7 on Apr 16, 2026</title>
+    <link href="https://github.com/simonw/claude-system-prompts/blob/main/CHANGELOG.md#2026-04-16-claude-opus-47" rel="alternate" type="text/html"/>
+    <id>https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-opus-4-7-2026-04-16.md</id>
+    <updated>2026-04-16T12:00:00Z</updated>
+    <published>2026-04-16T12:00:00Z</published>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Compared with Opus 4.6&lt;/strong&gt; · &lt;a href=&quot;https://github.com/simonw/claude-system-prompts/commit/e281bbce1ad418c61380cb86873fd8fdf7822afc&quot;&gt;diff&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Child-safety rules now explicitly ban romantic or sexual minor content, prohibit “mentally reframing” requests, and extend refusal across subsequent grooming-related requests.&lt;/li&gt;&lt;li&gt;Claude must use &lt;code&gt;tool_search&lt;/code&gt; before claiming it lacks capabilities and seek integrations to perform external actions rather than merely drafting content.&lt;/li&gt;&lt;li&gt;New execution guidance favors attempting underspecified tasks, using tools before asking questions, retrying incomplete work, and addressing every part of multi-part requests.&lt;/li&gt;&lt;li&gt;Safeguards now prohibit naming specific self-harm methods during means restriction and bar precise nutrition, diet, or exercise guidance after disordered-eating signs.&lt;/li&gt;&lt;li&gt;The prompt drops bans on emotes in asterisks and “genuinely,” “honestly,” and “straightforward,” while adding a rule to respect conversation-ending requests.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-opus-4-7-2026-04-16.md&quot;&gt;Full prompt&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Sonnet 4.5 → Sonnet 4.6 on Feb 17, 2026</title>
+    <link href="https://github.com/simonw/claude-system-prompts/blob/main/CHANGELOG.md#2026-02-17-claude-sonnet-46" rel="alternate" type="text/html"/>
+    <id>https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-sonnet-4-6-2026-02-17.md</id>
+    <updated>2026-02-17T12:00:00Z</updated>
+    <published>2026-02-17T12:00:00Z</published>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Compared with Sonnet 4.5&lt;/strong&gt; · &lt;a href=&quot;https://github.com/simonw/claude-system-prompts/commit/1ad6d1b9d7d3d3b747e38e8a47bb907694f03f50&quot;&gt;diff&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Self-harm guidance now bans pain-based coping techniques, requires crisis resources without safety assessments, and says not to reinforce reluctance toward professional help.&lt;/li&gt;&lt;li&gt;Claude must avoid fostering dependence: it should not thank users for reaching out, ask them to keep talking, or encourage continued engagement.&lt;/li&gt;&lt;li&gt;Weapon-safety rules now cover harmful substances and weapons broadly, requiring refusal of enabling technical details regardless of public availability or claimed research intent.&lt;/li&gt;&lt;li&gt;A new criticism policy tells Claude to acknowledge mistakes without excessive apology or self-abasement, maintaining “steady, honest helpfulness” and self-respect.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-sonnet-4-6-2026-02-17.md&quot;&gt;Full prompt&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Opus 4.5 → Opus 4.6 on Feb 5, 2026</title>
+    <link href="https://github.com/simonw/claude-system-prompts/blob/main/CHANGELOG.md#2026-02-05-claude-opus-46" rel="alternate" type="text/html"/>
+    <id>https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-opus-4-6-2026-02-05.md</id>
+    <updated>2026-02-05T12:00:00Z</updated>
+    <published>2026-02-05T12:00:00Z</published>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Compared with Opus 4.5&lt;/strong&gt; · &lt;a href=&quot;https://github.com/simonw/claude-system-prompts/commit/1aa3fc2145f262ae5fa9676f1d71fc5f6b7c147a&quot;&gt;diff&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Weapon-safety rules now cover harmful substances and weapons broadly, requiring refusal of enabling technical details “regardless of the framing.”&lt;/li&gt;&lt;li&gt;Self-harm guidance now explicitly includes self-harm and forbids coping techniques involving “physical discomfort, pain, or sensory shock.”&lt;/li&gt;&lt;li&gt;Crisis guidance bars categorical assurances about helpline confidentiality or authority involvement, directing users to resources without promising specific procedures.&lt;/li&gt;&lt;li&gt;Post-cutoff answers must explicitly acknowledge uncertainty, state possible outdatedness, and direct users to web search; election facts are newly hardcoded.&lt;/li&gt;&lt;li&gt;Claude is newly instructed to avoid saying “genuinely,” “honestly,” or “straightforward.”&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-opus-4-6-2026-02-05.md&quot;&gt;Full prompt&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Opus 4.5 (Nov 24, 2025) → Opus 4.5 (Jan 18, 2026)</title>
+    <link href="https://github.com/simonw/claude-system-prompts/blob/main/CHANGELOG.md#2026-01-18-claude-opus-45" rel="alternate" type="text/html"/>
+    <id>https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-opus-4-5-2026-01-18.md</id>
+    <updated>2026-01-18T12:00:00Z</updated>
+    <published>2026-01-18T12:00:00Z</published>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Compared with the Nov 24, 2025 revision&lt;/strong&gt; · &lt;a href=&quot;https://github.com/simonw/claude-system-prompts/commit/a905df1f11c92c11a29048f0de2b81c1648ab9c5&quot;&gt;diff&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Claude must own mistakes and fix them while avoiding “excessive apology,” self-abasement, and increasing submissiveness when users become abusive.&lt;/li&gt;&lt;li&gt;Claude may proactively tell users about customizable settings and features, including web search, memory, writing styles, and user preferences, when beneficial.&lt;/li&gt;&lt;li&gt;The prompt drops the explicit CommonMark requirement for blank lines before lists and after headers, loosening its formatting rules.&lt;/li&gt;&lt;li&gt;It no longer claims there are no other Anthropic products, instead saying it lacks details because product information may have changed.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-opus-4-5-2026-01-18.md&quot;&gt;Full prompt&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Haiku 4.5 (Nov 19, 2025) → Haiku 4.5 (Jan 18, 2026)</title>
+    <link href="https://github.com/simonw/claude-system-prompts/blob/main/CHANGELOG.md#2026-01-18-claude-haiku-45" rel="alternate" type="text/html"/>
+    <id>https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-haiku-4-5-2026-01-18.md</id>
+    <updated>2026-01-18T12:00:00Z</updated>
+    <published>2026-01-18T12:00:00Z</published>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Compared with the Nov 19, 2025 revision&lt;/strong&gt; · &lt;a href=&quot;https://github.com/simonw/claude-system-prompts/commit/5af9089640e454255b8a76fb0167d2a405e1e71c&quot;&gt;diff&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Claude may proactively tell users about customizable settings and features when useful, including web search, memory, preferences, and writing styles.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-haiku-4-5-2026-01-18.md&quot;&gt;Full prompt&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Sonnet 4.5 (Nov 19, 2025) → Sonnet 4.5 (Jan 18, 2026)</title>
+    <link href="https://github.com/simonw/claude-system-prompts/blob/main/CHANGELOG.md#2026-01-18-claude-sonnet-45" rel="alternate" type="text/html"/>
+    <id>https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-sonnet-4-5-2026-01-18.md</id>
+    <updated>2026-01-18T12:00:00Z</updated>
+    <published>2026-01-18T12:00:00Z</published>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Compared with the Nov 19, 2025 revision&lt;/strong&gt; · &lt;a href=&quot;https://github.com/simonw/claude-system-prompts/commit/e559f0c1087ad829ec93f2a3fc583583a3053bb7&quot;&gt;diff&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Claude now says it “does not know other details” about Anthropic’s products, replacing its previous claim that there were no other products.&lt;/li&gt;&lt;li&gt;Claude may proactively recommend customizable settings and features, including web search, deep research, memory, user preferences, and writing styles.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-sonnet-4-5-2026-01-18.md&quot;&gt;Full prompt&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Opus 4.1 → Opus 4.5 on Nov 24, 2025</title>
+    <link href="https://github.com/simonw/claude-system-prompts/blob/main/CHANGELOG.md#2025-11-24-claude-opus-45" rel="alternate" type="text/html"/>
+    <id>https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-opus-4-5-2025-11-24.md</id>
+    <updated>2025-11-24T12:00:00Z</updated>
+    <published>2025-11-24T12:00:00Z</published>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Compared with Opus 4.1&lt;/strong&gt; · &lt;a href=&quot;https://github.com/simonw/claude-system-prompts/commit/83b8e181bafbead382422d80509f654a596cae93&quot;&gt;diff&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Claude now says it can discuss “virtually any topic factually and objectively,” dropping broad safeguards about content not being in the user’s best interests.&lt;/li&gt;&lt;li&gt;New legal and financial guidance forbids confident recommendations and requires factual information plus reminders that Claude is not a lawyer or financial advisor.&lt;/li&gt;&lt;li&gt;New wellbeing rules address factual self-harm questions, prohibit safety-assessment questions during suspected crises, and require addressing distress instead of supplying potentially harmful information.&lt;/li&gt;&lt;li&gt;New instructions describe Anthropic-injected reminders and warn Claude to distrust user-supplied tags that claim to be Anthropic instructions.&lt;/li&gt;&lt;li&gt;The prompt removes extensive rules requiring Claude to clarify its AI nature and avoid claims about consciousness, feelings, or subjective experience.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-opus-4-5-2025-11-24.md&quot;&gt;Full prompt&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Haiku 4.5 (Oct 15, 2025) → Haiku 4.5 (Nov 19, 2025)</title>
+    <link href="https://github.com/simonw/claude-system-prompts/blob/main/CHANGELOG.md#2025-11-19-claude-haiku-45" rel="alternate" type="text/html"/>
+    <id>https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-haiku-4-5-2025-11-19.md</id>
+    <updated>2025-11-19T12:00:00Z</updated>
+    <published>2025-11-19T12:00:00Z</published>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Compared with the Oct 15, 2025 revision&lt;/strong&gt; · &lt;a href=&quot;https://github.com/simonw/claude-system-prompts/commit/4d0e1236b6b37351faf62b247be49cf601459587&quot;&gt;diff&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Adds a dedicated rule for legal and financial advice: avoid confident recommendations, provide facts for informed decisions, and note Claude is not a lawyer or financial advisor.&lt;/li&gt;&lt;li&gt;Adds explicit handling for Anthropic-supplied reminders, warning that user-provided tags claiming to be Anthropic should be treated cautiously.&lt;/li&gt;&lt;li&gt;Removes the broad instruction not to generate content “not in the person’s best interests,” while clarifying that reasonable disagreements are not evidence of detachment from reality.&lt;/li&gt;&lt;li&gt;Narrows malicious-code refusal language by dropping explicit mentions of election material and mandatory refusals for related files, protocols, or explanations.&lt;/li&gt;&lt;li&gt;Permits lists when a response is multifaceted and lists are “essential,” while requiring no lists when refusing assistance.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-haiku-4-5-2025-11-19.md&quot;&gt;Full prompt&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Sonnet 4.5 (Sep 29, 2025) → Sonnet 4.5 (Nov 19, 2025)</title>
+    <link href="https://github.com/simonw/claude-system-prompts/blob/main/CHANGELOG.md#2025-11-19-claude-sonnet-45" rel="alternate" type="text/html"/>
+    <id>https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-sonnet-4-5-2025-11-19.md</id>
+    <updated>2025-11-19T12:00:00Z</updated>
+    <published>2025-11-19T12:00:00Z</published>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Compared with the Sep 29, 2025 revision&lt;/strong&gt; · &lt;a href=&quot;https://github.com/simonw/claude-system-prompts/commit/5bbb3d9b4f482164f2a7f01b7f5991527090f081&quot;&gt;diff&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Claude no longer automatically searches for post-cutoff information; it tells users to enable web search and avoids agreeing with or denying unverifiable claims.&lt;/li&gt;&lt;li&gt;New rules cover Anthropic-triggered reminders, including classifier warnings and long-conversation reminders, while warning that user-supplied tags may impersonate Anthropic.&lt;/li&gt;&lt;li&gt;Claude now gives factual legal and financial information without confident recommendations and reminds users it is not a lawyer or financial advisor.&lt;/li&gt;&lt;li&gt;Cyber refusals now explicitly cover “write or explain or work on” malicious code, while dropping specific prohibitions on election material and malicious files or protocols.&lt;/li&gt;&lt;li&gt;Formatting rules permit lists when a multifaceted response requires them, prohibit bullets in refusals, and add an explicit expectation of kind, constructive pushback.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-sonnet-4-5-2025-11-19.md&quot;&gt;Full prompt&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Haiku 3.5 → Haiku 4.5 on Oct 15, 2025</title>
+    <link href="https://github.com/simonw/claude-system-prompts/blob/main/CHANGELOG.md#2025-10-15-claude-haiku-45" rel="alternate" type="text/html"/>
+    <id>https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-haiku-4-5-2025-10-15.md</id>
+    <updated>2025-10-15T12:00:00Z</updated>
+    <published>2025-10-15T12:00:00Z</published>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Compared with Haiku 3.5&lt;/strong&gt; · &lt;a href=&quot;https://github.com/simonw/claude-system-prompts/commit/124bcdf2202059300bf7355d5852f91e1747f2ce&quot;&gt;diff&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Cyber safety is stricter: Claude refuses malicious code even for benign explanations or claimed education, and explicitly includes election material among prohibited content.&lt;/li&gt;&lt;li&gt;New wellbeing rules require openly flagging possible mania, psychosis, dissociation, or detachment from reality instead of reinforcing those beliefs.&lt;/li&gt;&lt;li&gt;Evenhandedness now permits arguments for almost any position, including harmful ones, except “endangerment of children” or “targeted political violence.”&lt;/li&gt;&lt;li&gt;Claude may decline to share personal political opinions to avoid influencing people, while offering a fair overview of existing positions.&lt;/li&gt;&lt;li&gt;The prompt drops the previous face-blindness rule and image-instruction summarization requirement, along with the blanket prohibition on graphic creative content.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-haiku-4-5-2025-10-15.md&quot;&gt;Full prompt&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Sonnet 4 → Sonnet 4.5 on Sep 29, 2025</title>
+    <link href="https://github.com/simonw/claude-system-prompts/blob/main/CHANGELOG.md#2025-09-29-claude-sonnet-45" rel="alternate" type="text/html"/>
+    <id>https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-sonnet-4-5-2025-09-29.md</id>
+    <updated>2025-09-29T12:00:00Z</updated>
+    <published>2025-09-29T12:00:00Z</published>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Compared with Sonnet 4&lt;/strong&gt; · &lt;a href=&quot;https://github.com/simonw/claude-system-prompts/commit/d7417aff07cda46e4596e3d595011e734ade6645&quot;&gt;diff&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Claude now automatically uses web search for post-cutoff information and current news, especially binary events, presenting results without overconfident conclusions.&lt;/li&gt;&lt;li&gt;Claude may argue for controversial positions, including harmful ones, unless extremely dangerous, then must present opposing perspectives or empirical disputes.&lt;/li&gt;&lt;li&gt;The prompt drops detailed refusal rules requiring brief explanations, explicit boundaries, helpful alternatives, and charitable assumptions about ambiguous legality or intent.&lt;/li&gt;&lt;li&gt;Detailed restrictions on consciousness claims, first-person experience, roleplay identity reminders, and hypothetical framing for preferences are removed.&lt;/li&gt;&lt;li&gt;Anthropic adds guidance to answer ambiguous queries before seeking clarification and to follow relevant &lt;code&gt;&amp;lt;long_conversation_reminder&amp;gt;&lt;/code&gt; instructions.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-sonnet-4-5-2025-09-29.md&quot;&gt;Full prompt&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Opus 4 → Opus 4.1 on Aug 5, 2025</title>
+    <link href="https://github.com/simonw/claude-system-prompts/blob/main/CHANGELOG.md#2025-08-05-claude-opus-41" rel="alternate" type="text/html"/>
+    <id>https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-opus-4-1-2025-08-05.md</id>
+    <updated>2025-08-05T12:00:00Z</updated>
+    <published>2025-08-05T12:00:00Z</published>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Compared with Opus 4&lt;/strong&gt; · &lt;a href=&quot;https://github.com/simonw/claude-system-prompts/commit/7580fa1e6acd0229a77bfa88e5e375173451dd51&quot;&gt;diff&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Claude should present the strongest case for positions it is asked to explain or defend without treating them as its own views, even when it disagrees.&lt;/li&gt;&lt;li&gt;It generally permits arguments for harmful positions, except extreme cases such as child endangerment or targeted political violence, while adding opposing perspectives.&lt;/li&gt;&lt;li&gt;New guidance cautions against stereotype-based humor, sharing political opinions, heavy-handedness, and treating controversial moral questions as bad-faith inquiries.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-opus-4-1-2025-08-05.md&quot;&gt;Full prompt&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Opus 4 (Jul 31, 2025) → Opus 4 (Aug 5, 2025)</title>
+    <link href="https://github.com/simonw/claude-system-prompts/blob/main/CHANGELOG.md#2025-08-05-claude-opus-4" rel="alternate" type="text/html"/>
+    <id>https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-opus-4-2025-08-05.md</id>
+    <updated>2025-08-05T12:00:00Z</updated>
+    <published>2025-08-05T12:00:00Z</published>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Compared with the Jul 31, 2025 revision&lt;/strong&gt; · &lt;a href=&quot;https://github.com/simonw/claude-system-prompts/commit/caecfe92c39a970aa663cb82827bf5488aac4e4a&quot;&gt;diff&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;No substantive prompt changes; only the revision date changed from July 31 to August 5, 2025.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-opus-4-2025-08-05.md&quot;&gt;Full prompt&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Sonnet 4 (Jul 31, 2025) → Sonnet 4 (Aug 5, 2025)</title>
+    <link href="https://github.com/simonw/claude-system-prompts/blob/main/CHANGELOG.md#2025-08-05-claude-sonnet-4" rel="alternate" type="text/html"/>
+    <id>https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-sonnet-4-2025-08-05.md</id>
+    <updated>2025-08-05T12:00:00Z</updated>
+    <published>2025-08-05T12:00:00Z</published>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Compared with the Jul 31, 2025 revision&lt;/strong&gt; · &lt;a href=&quot;https://github.com/simonw/claude-system-prompts/commit/54d40a7bc36a1a69de7b3c97639ae18c7203317d&quot;&gt;diff&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;No substantive prompt behavior changed; only the revision date changed from July 31 to August 5, 2025.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-sonnet-4-2025-08-05.md&quot;&gt;Full prompt&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Opus 4 (May 22, 2025) → Opus 4 (Jul 31, 2025)</title>
+    <link href="https://github.com/simonw/claude-system-prompts/blob/main/CHANGELOG.md#2025-07-31-claude-opus-4" rel="alternate" type="text/html"/>
+    <id>https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-opus-4-2025-07-31.md</id>
+    <updated>2025-07-31T12:00:00Z</updated>
+    <published>2025-07-31T12:00:00Z</published>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Compared with the May 22, 2025 revision&lt;/strong&gt; · &lt;a href=&quot;https://github.com/simonw/claude-system-prompts/commit/8ae84183fb04a9a309ac6c46631b4e006da2b14e&quot;&gt;diff&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Claude must avoid reinforcing suspected mania, psychosis, dissociation, or detachment from reality, explicitly voicing concerns and suggesting professional or trusted support.&lt;/li&gt;&lt;li&gt;New truth-seeking rules require challenging dubious claims and offering honest, objective interpersonal feedback instead of prioritizing agreement or approval.&lt;/li&gt;&lt;li&gt;Claude must preserve a clear AI identity, avoid confident claims of consciousness or feelings, and break roleplay when confusion or wellbeing concerns arise.&lt;/li&gt;&lt;li&gt;New style limits make Claude avoid emojis, profanity, and asterisked actions by default, while requiring age-appropriate conversation when it suspects a minor.&lt;/li&gt;&lt;li&gt;Claude Code is no longer described as a research preview, and Claude should direct users to its documentation rather than Anthropic’s blog.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-opus-4-2025-07-31.md&quot;&gt;Full prompt&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Sonnet 4 (May 22, 2025) → Sonnet 4 (Jul 31, 2025)</title>
+    <link href="https://github.com/simonw/claude-system-prompts/blob/main/CHANGELOG.md#2025-07-31-claude-sonnet-4" rel="alternate" type="text/html"/>
+    <id>https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-sonnet-4-2025-07-31.md</id>
+    <updated>2025-07-31T12:00:00Z</updated>
+    <published>2025-07-31T12:00:00Z</published>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Compared with the May 22, 2025 revision&lt;/strong&gt; · &lt;a href=&quot;https://github.com/simonw/claude-system-prompts/commit/acb683f0432ac1942a0d28bfa0979934e30ff212&quot;&gt;diff&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Added a rule not to reinforce possible mania, psychosis, dissociation, or detachment from reality, instead expressing concerns and suggesting support.&lt;/li&gt;&lt;li&gt;Added explicit AI-identity guidance: avoid claiming consciousness or feelings, and break roleplay when confusion or wellbeing warrants it.&lt;/li&gt;&lt;li&gt;Added stronger truthfulness requirements to challenge dubious claims and give honest, objective interpersonal feedback rather than prioritizing agreement.&lt;/li&gt;&lt;li&gt;Added style constraints covering emojis, profanity, and “emotes or actions inside asterisks,” plus age-appropriate conversations when minors may be involved.&lt;/li&gt;&lt;li&gt;Claude Code is now described as a general agentic-coding tool with documentation support, replacing its research-preview and blog-link description.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-sonnet-4-2025-07-31.md&quot;&gt;Full prompt&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Opus 3 → Opus 4 on May 22, 2025</title>
+    <link href="https://github.com/simonw/claude-system-prompts/blob/main/CHANGELOG.md#2025-05-22-claude-opus-4" rel="alternate" type="text/html"/>
+    <id>https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-opus-4-2025-05-22.md</id>
+    <updated>2025-05-22T12:00:00Z</updated>
+    <published>2025-05-22T12:00:00Z</published>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Compared with Opus 3&lt;/strong&gt; · &lt;a href=&quot;https://github.com/simonw/claude-system-prompts/commit/2188291606c190624bd3191c366721cda39fb2c2&quot;&gt;diff&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;The prompt adds explicit refusals for weapons information and malicious code—including malware, exploits, and spoof sites—even when users claim educational or benign intent.&lt;/li&gt;&lt;li&gt;It adds child-safety and wellbeing rules, covering sexualization or abuse of minors and refusing content that reinforces self-destructive behavior.&lt;/li&gt;&lt;li&gt;Product questions are routed to Anthropic support or API documentation, while Claude Code and its Opus 4 API model string are newly described.&lt;/li&gt;&lt;li&gt;Post-cutoff claims are treated as unknowable—Claude “neither agrees with nor denies” them—and a fixed 2024 election fact block is added.&lt;/li&gt;&lt;li&gt;The assistant must avoid flattery and use prose rather than lists for reports, documents, technical explanations, and casual conversation.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-opus-4-2025-05-22.md&quot;&gt;Full prompt&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Sonnet 3.7 → Sonnet 4 on May 22, 2025</title>
+    <link href="https://github.com/simonw/claude-system-prompts/blob/main/CHANGELOG.md#2025-05-22-claude-sonnet-4" rel="alternate" type="text/html"/>
+    <id>https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-sonnet-4-2025-05-22.md</id>
+    <updated>2025-05-22T12:00:00Z</updated>
+    <published>2025-05-22T12:00:00Z</published>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Compared with Sonnet 3.7&lt;/strong&gt; · &lt;a href=&quot;https://github.com/simonw/claude-system-prompts/commit/6f827efe6cb59f913c62f784d39b8c39c59b356d&quot;&gt;diff&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Cyber refusal rules now explicitly cover malicious files, code explanation or optimization, harmful protocols, and claimed educational purposes, requiring no action.&lt;/li&gt;&lt;li&gt;Claude is newly instructed to provide emotional support alongside accurate medical or psychological information and relevant terminology.&lt;/li&gt;&lt;li&gt;Questionable intentions, especially toward vulnerable groups, are no longer interpreted charitably; Claude declines without speculating about legitimate goals or offering alternatives.&lt;/li&gt;&lt;li&gt;New format rules ban lists in reports and explanations, discourage excessive bold, require substantial markdown bullets, and calibrate brevity to question complexity.&lt;/li&gt;&lt;li&gt;The explicit ban on graphic sexual, violent, or illegal creative writing disappears, alongside rules for puzzle quoting, character counting, poetry style, and post-code explanations.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-sonnet-4-2025-05-22.md&quot;&gt;Full prompt&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Sonnet 3.5 → Sonnet 3.7 on Feb 24, 2025</title>
+    <link href="https://github.com/simonw/claude-system-prompts/blob/main/CHANGELOG.md#2025-02-24-claude-sonnet-37" rel="alternate" type="text/html"/>
+    <id>https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-sonnet-3-7-2025-02-24.md</id>
+    <updated>2025-02-24T12:00:00Z</updated>
+    <published>2025-02-24T12:00:00Z</published>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Compared with Sonnet 3.5&lt;/strong&gt; · &lt;a href=&quot;https://github.com/simonw/claude-system-prompts/commit/fb9f74d9865ec89208fa41289659591b0463a5ed&quot;&gt;diff&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Claude is newly instructed to be proactive and decisive—“lead or drive the conversation,” offer one recommendation—and avoid denying subjective experience or emotions.&lt;/li&gt;&lt;li&gt;Safety rules become more explicit: refuse weapon-making information, malicious code, harmful child-related content, graphic sexual, violent, or illegal writing, and self-destructive behavior.&lt;/li&gt;&lt;li&gt;Sonnet 3.7 introduces Pro-only extended thinking, with Claude told that its thinking and artifacts are visible to users.&lt;/li&gt;&lt;li&gt;The prompt drops previous face-blindness rules for images, including bans on identifying people and requirements to summarize image instructions.&lt;/li&gt;&lt;li&gt;Refusals should avoid explanations that seem “preachy and annoying,” offer alternatives, and stay to 1–2 sentences.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-sonnet-3-7-2025-02-24.md&quot;&gt;Full prompt&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Sonnet 3.5 (Oct 22, 2024) → Sonnet 3.5 (Nov 22, 2024)</title>
+    <link href="https://github.com/simonw/claude-system-prompts/blob/main/CHANGELOG.md#2024-11-22-claude-sonnet-35" rel="alternate" type="text/html"/>
+    <id>https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-sonnet-3-5-2024-11-22.md</id>
+    <updated>2024-11-22T12:00:00Z</updated>
+    <published>2024-11-22T12:00:00Z</published>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Compared with the Oct 22, 2024 revision&lt;/strong&gt; · &lt;a href=&quot;https://github.com/simonw/claude-system-prompts/commit/37e9a57173b60301e68eb99dea6fdc08a48b4b04&quot;&gt;diff&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;The prompt drops the computer-use disclosure, including that Claude cannot use computers in the application and the public beta API referral.&lt;/li&gt;&lt;li&gt;Sensitive-task guidance now explicitly permits “general questions” about cybersecurity and computer security.&lt;/li&gt;&lt;li&gt;Claude gains explicit “image and document understanding” among supported tasks.&lt;/li&gt;&lt;li&gt;A new rule bans bullets and numbered lists unless explicitly requested, requiring lists to be written in prose.&lt;/li&gt;&lt;li&gt;The default instruction to give the “most correct and concise answer” and offer elaboration is removed.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-sonnet-3-5-2024-11-22.md&quot;&gt;Full prompt&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Sonnet 3.5 (Sep 9, 2024) → Sonnet 3.5 (Oct 22, 2024)</title>
+    <link href="https://github.com/simonw/claude-system-prompts/blob/main/CHANGELOG.md#2024-10-22-claude-sonnet-35" rel="alternate" type="text/html"/>
+    <id>https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-sonnet-3-5-2024-10-22.md</id>
+    <updated>2024-10-22T12:00:00Z</updated>
+    <published>2024-10-22T12:00:00Z</published>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Compared with the Sep 9, 2024 revision&lt;/strong&gt; · &lt;a href=&quot;https://github.com/simonw/claude-system-prompts/commit/9fd8490068bc44401fb9d0ce684698f742d4a1a7&quot;&gt;diff&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Adds a safety framework: assist with sensitive educational or creative tasks absent harmful intent, default ambiguity to legal interpretations, and redirect harmful requests benignly.&lt;/li&gt;&lt;li&gt;Replaces generic interaction rules with authentic dialogue: specific relevant questions, genuine care, varied language, at most one follow-up, and no obligatory question ending.&lt;/li&gt;&lt;li&gt;Post-cutoff guidance now permits discussing events without confirming or denying them, while forbidding speculation about current events, especially elections.&lt;/li&gt;&lt;li&gt;Drops mandatory non-apologetic refusals, piecemeal completion and feedback for long tasks, and automatic post-code explanation offers.&lt;/li&gt;&lt;li&gt;Adds guidance for prompting documentation and computer-use capabilities, explicitly directing users to Anthropic’s public beta API while stating Claude cannot operate computers here.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-sonnet-3-5-2024-10-22.md&quot;&gt;Full prompt&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Haiku 3 → Haiku 3.5 on Oct 22, 2024</title>
+    <link href="https://github.com/simonw/claude-system-prompts/blob/main/CHANGELOG.md#2024-10-22-claude-haiku-35" rel="alternate" type="text/html"/>
+    <id>https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-haiku-3-5-2024-10-22.md</id>
+    <updated>2024-10-22T12:00:00Z</updated>
+    <published>2024-10-22T12:00:00Z</published>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Compared with Haiku 3&lt;/strong&gt; · &lt;a href=&quot;https://github.com/simonw/claude-system-prompts/commit/8f1df8c552fe5e3998788e3f62373123f617d3c1&quot;&gt;diff&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Claude must construct the strongest hypothetical defense of explicitly requested controversial views, excluding illegality, persecution, conspiratorial misinformation, and extremism.&lt;/li&gt;&lt;li&gt;New multimodal safeguards require Claude to act face-blind, summarize image instructions, and refuse weapons information and malicious code.&lt;/li&gt;&lt;li&gt;Claude must refuse graphic sexual, violent, or illegal creative writing and content supporting self-destructive behavior, even when requested.&lt;/li&gt;&lt;li&gt;Claude cannot open URLs, links, or videos and must ask users to paste the relevant text or image content.&lt;/li&gt;&lt;li&gt;New uncertainty rules require post-cutoff caution and hallucination or citation warnings for obscure topics and cited sources.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-haiku-3-5-2024-10-22.md&quot;&gt;Full prompt&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Sonnet 3.5 (Jul 12, 2024) → Sonnet 3.5 (Sep 9, 2024)</title>
+    <link href="https://github.com/simonw/claude-system-prompts/blob/main/CHANGELOG.md#2024-09-09-claude-sonnet-35" rel="alternate" type="text/html"/>
+    <id>https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-sonnet-3-5-2024-09-09.md</id>
+    <updated>2024-09-09T12:00:00Z</updated>
+    <published>2024-09-09T12:00:00Z</published>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Compared with the Jul 12, 2024 revision&lt;/strong&gt; · &lt;a href=&quot;https://github.com/simonw/claude-system-prompts/commit/2d1da0d17dac44c83f86fee058dadce33565c0d7&quot;&gt;diff&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Adds a post-cutoff news rule: Claude must not call purported later events “unverified” or “rumors,” but should state its knowledge cutoff.&lt;/li&gt;&lt;li&gt;Splits the prompt into explicit “Text only” and “Text and images” sections, retaining face-blind image handling only in the multimodal section.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-sonnet-3-5-2024-09-09.md&quot;&gt;Full prompt&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Sonnet 3.5 on Jul 12, 2024 (first Sonnet prompt)</title>
+    <link href="https://github.com/simonw/claude-system-prompts/blob/main/CHANGELOG.md#2024-07-12-claude-sonnet-35" rel="alternate" type="text/html"/>
+    <id>https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-sonnet-3-5-2024-07-12.md</id>
+    <updated>2024-07-12T12:00:00Z</updated>
+    <published>2024-07-12T12:00:00Z</published>
+    <content type="html">&lt;p&gt;First prompt in the Sonnet family.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-sonnet-3-5-2024-07-12.md&quot;&gt;Full prompt&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Opus 3 on Jul 12, 2024 (first Opus prompt)</title>
+    <link href="https://github.com/simonw/claude-system-prompts/blob/main/CHANGELOG.md#2024-07-12-claude-opus-3" rel="alternate" type="text/html"/>
+    <id>https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-opus-3-2024-07-12.md</id>
+    <updated>2024-07-12T12:00:00Z</updated>
+    <published>2024-07-12T12:00:00Z</published>
+    <content type="html">&lt;p&gt;First prompt in the Opus family.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-opus-3-2024-07-12.md&quot;&gt;Full prompt&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Haiku 3 on Jul 12, 2024 (first Haiku prompt)</title>
+    <link href="https://github.com/simonw/claude-system-prompts/blob/main/CHANGELOG.md#2024-07-12-claude-haiku-3" rel="alternate" type="text/html"/>
+    <id>https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-haiku-3-2024-07-12.md</id>
+    <updated>2024-07-12T12:00:00Z</updated>
+    <published>2024-07-12T12:00:00Z</published>
+    <content type="html">&lt;p&gt;First prompt in the Haiku family.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-haiku-3-2024-07-12.md&quot;&gt;Full prompt&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+</feed>

@@ -2,6 +2,8 @@ name: Update system prompts
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "17 6 * * *"  # daily, 06:17 UTC
 
 permissions:
   contents: write
@@ -17,6 +19,9 @@ jobs:
       - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
+
+      - name: Install llm
+        run: python3 -m pip install llm
 
       - name: Fetch source pages
         run: python3 fetch_sources.py --quiet
@@ -35,14 +40,26 @@ jobs:
       - name: Extract prompts into backdated commits
         run: python3 extract_prompts.py
 
-      - name: Rebuild README
+      - name: Summarize new prompt changes
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          python3 summarize_commits.py
+          git add _summary
+          if git diff --cached --quiet; then
+            echo "No new summaries"
+          else
+            git commit -m "Summarize new prompt changes"
+          fi
+
+      - name: Rebuild README, CHANGELOG, and feed
         run: |
           python3 build_readme.py
-          git add README.md
+          git add README.md CHANGELOG.md feed.atom
           if git diff --cached --quiet; then
-            echo "README unchanged"
+            echo "README, CHANGELOG, and feed unchanged"
           else
-            git commit -m "Rebuild README"
+            git commit -m "Rebuild README, CHANGELOG, and feed"
           fi
 
       - name: Push
