@@ -1,0 +1,37 @@
+name: Update system prompts
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch source pages
+        run: python3 fetch_sources.py --quiet
+
+      - name: Commit changed sources
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add _sources
+          if git diff --cached --quiet; then
+            echo "No source changes"
+          else
+            git commit -m "Fetch latest system prompt pages"
+          fi
+
+      - name: Extract prompts into backdated commits
+        run: python3 extract_prompts.py
+
+      - name: Push
+        run: git push
