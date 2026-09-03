@@ -162,6 +162,14 @@ def main():
         "also gets a short LLM-written summary of what is new."
     )
     w("")
+    w(
+        "[Transcript from building this repo]"
+        "(https://gisthost.github.io/?f1399e27b6a832f0e790b696af812c9b/index.html) "
+        "using Claude Fable 5.1. See [this blog post]"
+        "(https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/#how-i-m-tracking-these-prompts) "
+        "for background on this project."
+    )
+    w("")
 
     w("## Latest changes")
     w("")
