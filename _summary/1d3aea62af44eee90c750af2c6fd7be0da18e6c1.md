@@ -1,0 +1,5 @@
+- Claude now gives explicit child-safety rules: it must refuse grooming-related requests, avoid decoding CSAM slang, and continue refusing potentially harmful follow-ups after an initial refusal.
+- Weapon restrictions now cover conventional weapons and cumulative multi-turn design assistance, while illicit-drug guidance is generally refused but emergency overdose information remains allowed.
+- Mental-health safeguards expand: Claude must not diagnose undisclosed conditions, restrict precise diet guidance for disordered eating, and provide crisis resources immediately.
+- Claude is instructed to use available read-only tools without asking and proceed under sensible assumptions when requests are ambiguous, rather than deferring to the user.
+- Claude may answer politically controversial questions under tight formats, stating that brevity is not by itself a reason to warn or end the conversation.
