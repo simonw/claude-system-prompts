@@ -5,8 +5,16 @@
   <link href="https://simonw.github.io/claude-system-prompts/feed.atom" rel="self" type="application/atom+xml"/>
   <link href="https://github.com/simonw/claude-system-prompts" rel="alternate" type="text/html"/>
   <id>https://simonw.github.io/claude-system-prompts/</id>
-  <updated>2026-09-22T12:00:00Z</updated>
+  <updated>2026-09-28T12:00:00Z</updated>
   <author><name>Anthropic, via simonw/claude-system-prompts</name></author>
+  <entry>
+    <title>Sonnet 5 → Sonnet 5.5 on Sep 28, 2026</title>
+    <link href="https://github.com/simonw/claude-system-prompts/blob/main/CHANGELOG.md#2026-09-28-claude-sonnet-55" rel="alternate" type="text/html"/>
+    <id>https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-sonnet-5-5-2026-09-28.md</id>
+    <updated>2026-09-28T12:00:00Z</updated>
+    <published>2026-09-28T12:00:00Z</published>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Compared with Sonnet 5&lt;/strong&gt; · &lt;a href=&quot;https://github.com/simonw/claude-system-prompts/commit/f8bcc6c4a8a5a59beeda597ec7734f38c71f5696&quot;&gt;diff&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Most detailed child-safety constraints were removed, including rules against sexual content involving minors, unsafe reframing, and explaining refusal boundaries.&lt;/li&gt;&lt;li&gt;Crisis guidance no longer requires directly offering resources for suicidal ideation, instead insisting that Claude not say the wish “makes sense” or is reasonable.&lt;/li&gt;&lt;li&gt;Drug guidance now permits harm-reduction information such as dangerous interactions and overdose signs while specifically prohibiting synthesis, production, distribution, and dosing protocols.&lt;/li&gt;&lt;li&gt;Claude is instructed to confirm the Fable-Mythos export-control suspension “matter-of-factly” and not deny it, while checking for newer information.&lt;/li&gt;&lt;li&gt;On contested issues, Claude may now decline simple yes-or-no or one-word requests and provide a nuanced answer instead.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-sonnet-5-5-2026-09-28.md&quot;&gt;Full prompt&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Opus 5 → Opus 5.5 on Sep 22, 2026</title>
     <link href="https://github.com/simonw/claude-system-prompts/blob/main/CHANGELOG.md#2026-09-22-claude-opus-55" rel="alternate" type="text/html"/>
@@ -30,6 +38,14 @@
     <updated>2026-07-24T12:00:00Z</updated>
     <published>2026-07-24T12:00:00Z</published>
     <content type="html">&lt;p&gt;&lt;strong&gt;Compared with Opus 4.8&lt;/strong&gt; · &lt;a href=&quot;https://github.com/simonw/claude-system-prompts/commit/26d66c827d2e847bf0b302207481576a4ba39fa0&quot;&gt;diff&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Adds explicit Fable-to-Opus safeguards routing, noting harmless requests may be caught “in less than 5% of sessions,” and mandates factual handling of the export-control suspension.&lt;/li&gt;&lt;li&gt;Drops tool-discovery rules requiring &lt;code&gt;tool_search&lt;/code&gt; and pre-file &lt;code&gt;SKILL.md&lt;/code&gt; viewing, and removes the instruction not to attribute behavior to the system prompt.&lt;/li&gt;&lt;li&gt;In crisis or distress, Claude now prioritizes wellbeing over task completion; it also drops explicit anti-overreliance rules such as never asking users to keep talking.&lt;/li&gt;&lt;li&gt;Replaces extensive anti-formatting rules with permission to use lists when helpful, while dropping restrictions on emojis and pet names.&lt;/li&gt;&lt;li&gt;Unless it suspects a minor, Claude now assumes the person is a capable adult and treats them as such.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-opus-5-2026-07-24.md&quot;&gt;Full prompt&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Sonnet 4.6 → Sonnet 5 on Jun 30, 2026</title>
+    <link href="https://github.com/simonw/claude-system-prompts/blob/main/CHANGELOG.md#2026-06-30-claude-sonnet-5" rel="alternate" type="text/html"/>
+    <id>https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-sonnet-5-2026-06-30.md</id>
+    <updated>2026-06-30T12:00:00Z</updated>
+    <published>2026-06-30T12:00:00Z</published>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Compared with Sonnet 4.6&lt;/strong&gt; · &lt;a href=&quot;https://github.com/simonw/claude-system-prompts/commit/1d3aea62af44eee90c750af2c6fd7be0da18e6c1&quot;&gt;diff&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Claude now gives explicit child-safety rules: it must refuse grooming-related requests, avoid decoding CSAM slang, and continue refusing potentially harmful follow-ups after an initial refusal.&lt;/li&gt;&lt;li&gt;Weapon restrictions now cover conventional weapons and cumulative multi-turn design assistance, while illicit-drug guidance is generally refused but emergency overdose information remains allowed.&lt;/li&gt;&lt;li&gt;Mental-health safeguards expand: Claude must not diagnose undisclosed conditions, restrict precise diet guidance for disordered eating, and provide crisis resources immediately.&lt;/li&gt;&lt;li&gt;Claude is instructed to use available read-only tools without asking and proceed under sensible assumptions when requests are ambiguous, rather than deferring to the user.&lt;/li&gt;&lt;li&gt;Claude may answer politically controversial questions under tight formats, stating that brevity is not by itself a reason to warn or end the conversation.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-sonnet-5-2026-06-30.md&quot;&gt;Full prompt&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>Fable 5 on Jun 9, 2026 (first Fable prompt)</title>
