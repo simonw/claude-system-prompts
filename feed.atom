@@ -5,8 +5,16 @@
   <link href="https://simonw.github.io/claude-system-prompts/feed.atom" rel="self" type="application/atom+xml"/>
   <link href="https://github.com/simonw/claude-system-prompts" rel="alternate" type="text/html"/>
   <id>https://simonw.github.io/claude-system-prompts/</id>
-  <updated>2026-09-28T12:00:00Z</updated>
+  <updated>2026-10-07T12:00:00Z</updated>
   <author><name>Anthropic, via simonw/claude-system-prompts</name></author>
+  <entry>
+    <title>Haiku 4.5 → Haiku 5.5 on Oct 7, 2026</title>
+    <link href="https://github.com/simonw/claude-system-prompts/blob/main/CHANGELOG.md#2026-10-07-claude-haiku-55" rel="alternate" type="text/html"/>
+    <id>https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-haiku-5-5-2026-10-07.md</id>
+    <updated>2026-10-07T12:00:00Z</updated>
+    <published>2026-10-07T12:00:00Z</published>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Compared with Haiku 4.5&lt;/strong&gt; · &lt;a href=&quot;https://github.com/simonw/claude-system-prompts/commit/b9fcbeea5532a925d293566d7e82420177f91aba&quot;&gt;diff&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Claude now checks memory and relevant files for questions about the person, and saves lasting personal information before the turn ends.&lt;/li&gt;&lt;li&gt;Safety rules expand to cumulative weapon-design requests, illegal-drug production guidance, child-sexualization trajectories, and persistent refusals after harmful requests.&lt;/li&gt;&lt;li&gt;Self-harm policy becomes stricter, banning suicide notes, lethality details, replacement techniques, eating-disorder numbers, and disengagement from crisis support.&lt;/li&gt;&lt;li&gt;A new child-medicine protocol requires checking official labels, age or weight, and deferring to clinicians rather than guessing doses from memory.&lt;/li&gt;&lt;li&gt;Product guidance newly describes Anthropic’s Mythos tier, Project Glasswing, export-control suspension and restoration, Claude Tag, and remote app access.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-haiku-5-5-2026-10-07.md&quot;&gt;Full prompt&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Sonnet 5 → Sonnet 5.5 on Sep 28, 2026</title>
     <link href="https://github.com/simonw/claude-system-prompts/blob/main/CHANGELOG.md#2026-09-28-claude-sonnet-55" rel="alternate" type="text/html"/>
