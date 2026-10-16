@@ -14,6 +14,54 @@ Every published revision of Claude's claude.ai system prompt, newest first, with
 - A new child-medicine protocol requires checking official labels, age or weight, and deferring to clinicians rather than guessing doses from memory.
 - Product guidance newly describes Anthropic’s Mythos tier, Project Glasswing, export-control suspension and restoration, Claude Tag, and remote app access.
 
+## 2026-10-07: Claude Sonnet 5.5
+
+[Full prompt](prompts/claude-sonnet-5-5-2026-10-07.md)
+
+**Compared with Sonnet 4.6** · [diff](https://github.com/simonw/claude-system-prompts/commit/5b93b559b70c5ff1272883179d054e9146d8783f)
+
+- Claude must now acknowledge the Fable/Mythos export-control suspension and restoration when asked, provide a neutral account, and check for newer information.
+- Child-safety rules replace blanket caution after a refusal with targeted self-sexualization safeguards, ban decoding CSAM slang, and limit grooming education to non-scripted patterns.
+- The prompt newly permits life-saving information about illegal substances while banning synthesis, distribution, and specific dosing, timing, administration, or combination protocols.
+- New wellbeing rules prohibit precise diet or exercise guidance after disordered-eating signs and reject narratives explaining why someone restricts, binges, or purges.
+- Children’s medicine guidance now allows a web-found product label and its stated dose, rather than requiring the label to appear in the conversation.
+
+**Compared with the Sep 28, 2026 revision** · [diff](https://github.com/simonw/claude-system-prompts/commit/bb699056d148bddcc4366f4a8b97115366c04a0c)
+
+- Adds child OTC-medicine guidance: ask for age and weight, rely on verified product labels, avoid guessing doses, and refer to pharmacists or doctors when needed.
+
+## 2026-10-07: Claude Sonnet 4.6
+
+[Full prompt](prompts/claude-sonnet-4-6-2026-10-07.md)
+
+**Compared with Sonnet 5.5** · [diff](https://github.com/simonw/claude-system-prompts/commit/7049ae74a7279e68c6a0fd7ce04e3d99a6fc8ff6)
+
+- Child-safety policy is tightened: Claude must never create romantic or sexual content involving minors, rejects safety-reframing, and treats later requests as potentially unsafe.
+- The prompt drops explicit bans on decoding CSAM slang and on detailed pattern-level grooming education, removing those previously stated limits.
+- A new child-medicine rule requires label-based dosing, official-label verification when searching, age and weight, and pharmacist or doctor referral when uncertain.
+- Crisis guidance now says to avoid safety-risk assessment and adds a ban on fostering Claude dependence, including asking users to keep talking.
+- The prior harm-reduction guidance for illicit substances—overdose signs, dangerous interactions, and named resources—is removed.
+
+**Compared with the Feb 17, 2026 revision** · [diff](https://github.com/simonw/claude-system-prompts/commit/304abd27a10b53635ccac2d6c542b85436b1576c)
+
+- Child-safety rules now explicitly prohibit sexual or romantic content involving minors, reject “safer” reinterpretations, and require caution after a refusal.
+- Weapon safeguards now cover conventional weapons and cumulative multi-turn assistance, regardless of framing, stated purpose, or prior-session assistance.
+- A new pediatric-medicine protocol restricts dosing to verified product labels and directs people to pharmacists or doctors when labels are unavailable.
+- Claude may treat pasted conversations as external transcripts rather than continuing them as genuine Claude exchanges.
+- Product information now introduces the nonpublic Mythos tier, Project Glasswing, and Claude Tag, a Slack-based delegation interface.
+
+## 2026-10-07: Claude Haiku 4.5
+
+[Full prompt](prompts/claude-haiku-4-5-2026-10-07.md)
+
+**Compared with the Jan 18, 2026 revision** · [diff](https://github.com/simonw/claude-system-prompts/commit/8a47c61dc887398df3341d2b3bd08d7fd39bf0a1)
+
+- Child-safety rules now require refusing grooming-related follow-ups, rejecting unsafe reinterpretations, and avoiding CSAM slang definitions or boundary-detection details.
+- Weapon-safety rules now cover conventional weapons and judge cumulative conversations, rejecting defensive, fictional, simulated, or document-editing framings.
+- New medical guidance restricts children’s medication doses to an in-conversation product label, with stricter deferral for prescriptions or missing labels.
+- Wellbeing rules add immediate crisis-resource guidance, prohibit precise diet advice after disordered-eating signs, and forbid self-harm substitutes involving pain or imagery.
+- Claude must accurately acknowledge the documented Fable and Mythos export-control suspension rather than denying it, while directing users to Anthropic’s statement.
+
 ## 2026-09-28: Claude Sonnet 5.5
 
 [Full prompt](prompts/claude-sonnet-5-5-2026-09-28.md)
