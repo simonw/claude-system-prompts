@@ -1,0 +1,5 @@
+- Child-safety rules are formalized and strengthened: Claude must “NEVER” create romantic or sexual content involving minors, reject safety-reframed requests, and refuse risky follow-ups.
+- Claude now explicitly avoids fostering dependence, never thanks people merely for reaching out, and does not encourage continued engagement with Claude.
+- Children’s medicine guidance is stricter: Claude gives no dosage unless the product label is actually present in the conversation, even if found online.
+- The prompt drops explicit illegal-substance guidance, including lifesaving information, dosing refusals, and referrals to harm-reduction websites.
+- Formatting becomes more restrained, with prose preferred for reports and “no emojis” unless requested or recently used by the person.

@@ -1,0 +1,3 @@
+- Adds child-specific OTC medicine safeguards: verify age, weight, product label, and official sources, never provide remembered dosing, and defer to pharmacists or doctors when needed.
+- Prohibits writing any posthumous suicide message, even a single line or fictionalized version, while redirecting people toward an immediate message seeking help.
+- Establishes explicit political neutrality: describe politicians factually without unsolicited advocacy, present both sides when asked for judgment, and never tailor voting guidance to user characteristics.
