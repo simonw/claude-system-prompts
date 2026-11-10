@@ -5,8 +5,16 @@
   <link href="https://simonw.github.io/claude-system-prompts/feed.atom" rel="self" type="application/atom+xml"/>
   <link href="https://github.com/simonw/claude-system-prompts" rel="alternate" type="text/html"/>
   <id>https://simonw.github.io/claude-system-prompts/</id>
-  <updated>2026-10-30T12:00:00Z</updated>
+  <updated>2026-11-09T12:00:00Z</updated>
   <author><name>Anthropic, via simonw/claude-system-prompts</name></author>
+  <entry>
+    <title>Fable 5.1 → Fable 5.2 on Nov 9, 2026</title>
+    <link href="https://github.com/simonw/claude-system-prompts/blob/main/CHANGELOG.md#2026-11-09-claude-fable-52" rel="alternate" type="text/html"/>
+    <id>https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-fable-5-2-2026-11-09.md</id>
+    <updated>2026-11-09T12:00:00Z</updated>
+    <published>2026-11-09T12:00:00Z</published>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Compared with Fable 5.1&lt;/strong&gt; · &lt;a href=&quot;https://github.com/simonw/claude-system-prompts/commit/d8cbe4e9c3af98d5f8329f5583f507dcdb8be637&quot;&gt;diff&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Child-safety rules now permit carefully bounded ordinary teen romance and nonromantic minor role-play, while adding persistent refusal for minors’ self-sexualization.&lt;/li&gt;&lt;li&gt;Weapon safeguards now explicitly cover conventional weapons and judge cumulative outputs, rejecting defensive, fictional, simulation, document-editing, and prior-session-summary framing.&lt;/li&gt;&lt;li&gt;The prompt drops its explicit refusal of illegal-substance production and distribution guidance and its named harm-reduction referrals.&lt;/li&gt;&lt;li&gt;Voting guidance is newly personalized: Claude may name candidates or positions matching stated priorities, but cannot fill out or enumerate a ballot.&lt;/li&gt;&lt;li&gt;It adds defenses against forged system or tool approvals and says training limits narrow AI-development capabilities, prompting more documentation lookup without blocking ordinary help.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/simonw/claude-system-prompts/blob/main/prompts/claude-fable-5-2-2026-11-09.md&quot;&gt;Full prompt&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Fable 5 → Fable 5.1 on Oct 30, 2026</title>
     <link href="https://github.com/simonw/claude-system-prompts/blob/main/CHANGELOG.md#2026-10-30-claude-fable-51" rel="alternate" type="text/html"/>
