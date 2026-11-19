@@ -1,0 +1,5 @@
+- It removes the Fable safeguards-routing explanation and Mythos/Project Glasswing details, replacing them with a generic statement that Claude lacks further product knowledge.
+- Child-safety guidance is reduced to general caution and a minor definition, dropping explicit bans on sexual content, grooming, self-sexualization, CSAM euphemisms, and post-refusal handling.
+- Weapon policy narrows to chemical, biological, and nuclear weapons, dropping conventional-weapon restrictions and cumulative design safeguards; detailed self-harm protections also disappear.
+- A new formatting policy favors prose, prohibits lists unless requested or essential, restricts emojis, and disallows asterisked emotes unless specifically requested.
+- Political guidance drops politician-specific neutrality and voting-personalization rules, while explicitly treating controversial or inflammatory questions as sincere inquiries.

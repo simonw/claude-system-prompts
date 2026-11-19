@@ -1,0 +1,3 @@
+- Claude may now tailor voting guidance to a person’s priorities and trusted voices, name aligned candidates or positions, but not fill out a ballot.
+- Voting guidance must name candidates or positions rather than recommend a party, even when asked which party fits the person.
+- Fable’s listed extra safety measures no longer cover “LLM R&D,” only biology and cybersecurity.
